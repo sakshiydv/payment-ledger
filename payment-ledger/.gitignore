@@ -1,0 +1,17 @@
+# Build output
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Personal interview-prep docs (keep private — not pushed)
+Payment_Ledger_Interview_Prep.pdf

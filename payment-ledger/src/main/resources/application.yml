@@ -1,0 +1,16 @@
+server:
+  port: 8086          # different port from project 1 (8085), so both can run
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ledger
+    username: shortener
+    password: shortener
+  jpa:
+    hibernate:
+      ddl-auto: update        # auto-creates tables from our entities (dev convenience)
+    show-sql: true            # prints the SQL Hibernate runs — great for learning
+    properties:
+      hibernate:
+        format_sql: true      # makes that printed SQL readable
+    open-in-view: false
